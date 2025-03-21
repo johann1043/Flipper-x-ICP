@@ -1,0 +1,90 @@
+{
+  "name": "flipper",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "start": "expo start",
+    "lint": "eslint \"**/*.{js,jsx,ts,tsx}\" && prettier -c \"**/*.{js,jsx,ts,tsx,json}\"",
+    "format": "eslint \"**/*.{js,jsx,ts,tsx}\" --fix && prettier \"**/*.{js,jsx,ts,tsx,json}\" --write",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.0",
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "@react-native-community/datetimepicker": "^8.2.0",
+    "@react-native-firebase/app": "^21.6.0",
+    "@react-native-firebase/auth": "^21.7.1",
+    "@react-native-picker/picker": "^2.9.0",
+    "@react-navigation/core": "^7.0.0",
+    "@react-navigation/material-top-tabs": "^7.1.0",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native-stack": "^7.2.0",
+    "axios": "^1.7.7",
+    "expo": "^52.0.11",
+    "expo-apple-authentication": "~7.1.3",
+    "expo-auth-session": "^6.0.3",
+    "expo-build-properties": "~0.13.1",
+    "expo-camera": "~16.0.14",
+    "expo-clipboard": "~7.0.1",
+    "expo-constants": "~17.0.6",
+    "expo-device": "~7.0.2",
+    "expo-image-manipulator": "~13.0.6",
+    "expo-linking": "~7.0.3",
+    "expo-localization": "~16.0.0",
+    "expo-notifications": "~0.29.13",
+    "expo-router": "^4.0.17",
+    "expo-status-bar": "~2.0.0",
+    "expo-system-ui": "~4.0.4",
+    "expo-web-browser": "~14.0.1",
+    "firebase": "^11.0.2",
+    "i18n-js": "^4.5.0",
+    "lodash": "^4.17.21",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "^0.76.3",
+    "react-native-codegen": "^0.70.7",
+    "react-native-date-picker": "^5.0.7",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-dropdown-picker": "^5.4.6",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-get-random-values": "~1.11.0",
+    "react-native-gifted-chat": "^2.6.4",
+    "react-native-image-picker": "^7.2.2",
+    "react-native-keyboard-controller": "^1.16.5",
+    "react-native-pager-view": "6.5.1",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-safe-area-context": "^4.14.1",
+    "react-native-screens": "~4.1.0",
+    "react-native-tab-view": "^4.0.3",
+    "react-native-ui-datepicker": "^2.0.4",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-web": "~0.19.10",
+    "socket.io-client": "^4.8.1",
+    "stream-chat": "^8.46.0",
+    "stream-chat-expo": "^5.44.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.3.12",
+    "@typescript-eslint/eslint-plugin": "^7.7.0",
+    "@typescript-eslint/parser": "^7.7.0",
+    "eslint": "^8.57.0",
+    "eslint-config-universe": "^12.0.1",
+    "prettier": "^3.2.5",
+    "typescript": "~5.3.3"
+  },
+  "eslintConfig": {
+    "extends": "universe/native",
+    "root": true
+  },
+  "expo": {
+    "install": {
+      "exclude": [
+        "react-native-safe-area-context"
+      ]
+    }
+  },
+  "private": true
+}
